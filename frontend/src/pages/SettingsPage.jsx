@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import Footer from "../components/Footer";
+=======
+>>>>>>> 5869a814ba2bb95ff0c17185ec8725c5b5ba5a5c
 import { THEMES } from "../constants";
 import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
@@ -110,7 +113,10 @@ const SettingsPage = () => {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <Footer/>
+=======
+>>>>>>> 5869a814ba2bb95ff0c17185ec8725c5b5ba5a5c
       </div>
     </div>
   );
