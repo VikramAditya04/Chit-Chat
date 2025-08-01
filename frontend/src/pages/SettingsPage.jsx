@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import { THEMES } from "../constants";
 import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
@@ -109,6 +110,7 @@ const SettingsPage = () => {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );
